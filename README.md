@@ -1,5 +1,26 @@
 # Studies about java
 
+## Expected case in java
+
+### Packages and classes
+
+Always using Upper in the start of each word
+
+#### Example
+
+MyFirstClass
+ProjectSchool
+
+### Variables
+
+Lower Case first word and after upper the start of each word
+
+#### Example
+
+myFirstClass
+projectSchool
+myName
+
 ## Basic
 
 ### Hello World
@@ -36,25 +57,46 @@
 
 #### Primitive types
 
-int
-double
-float
-char
-byte
-short
-long
-boolean
+![Primitive-types-and-ranges](./java_primitive_types.jpg)
 
-#### Other Types in Java
+#### Non Primitive Types
 
+String
 List
 Date
 
 #### Defining Variables
 
+```java
+primitive_type variable_name value;
+
+int age 10;
+boolean compare true;
+```
+
+#### Specify tipe value
+
+insert the letter that corresponde to the wanting type, example: f or F = Float, d or D = Double.
+
+```java
+
+float salary = 2500.8f
+
+```
+
+#### Casting
+
+Forcing variable to receive a value, even if the value is higher than max, this result in some weird results.
+
+```java
+int age = (int) 10000000000l;
+
+```
+
 ### Userfull hotkeys in intelij
 
 * `psvm` - create main class
+* `sout` - generate:  `System.out.println()`
 
 ## Free Courses
 
