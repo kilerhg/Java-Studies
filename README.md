@@ -177,6 +177,51 @@ switch (sexo){
 
 ```
 
+### Loops
+
+#### while
+
+Stays in the loop while the condition given is not a true boolean or a `break` happens inside the condition.
+
+##### Syntax
+
+```
+int cont = 0;
+
+while (cont < 10){
+    System.out.println(cont);
+    cont++;
+}
+```
+
+#### do while
+
+similar to while, but first do the code then verify condition.
+
+##### Syntax
+
+```
+cont = 0;
+do {
+    System.out.println("do " + cont);
+    cont++;
+}while (cont < 10);
+```
+
+#### for
+
+Loop statment until condition is boolean true.
+
+´for (start, condition, step)´
+
+##### Syntax
+
+```
+for (int i=0; i<10; i++){
+    System.out.println("for " + i);
+}
+```
+
 ### Userfull hotkeys in intelij
 
 + `psvm` - create main class
