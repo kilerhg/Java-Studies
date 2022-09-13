@@ -60,6 +60,13 @@ public class Aula27a31EstruturasDeRepeticao {
 
         System.out.println("Quantidade de parcelas necessarias: " + qtdParcelas);
 
+        int valorAchegar = 0;
+
+        while(valorAchegar < 10){
+            System.out.println("valor atual " + valorAchegar);
+            valorAchegar++;
+        };
+
         // break
         double valorCarroAula = 50000;
         for (int parcela = 1; parcela < valorCarroAula ; parcela++) {

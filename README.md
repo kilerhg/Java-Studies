@@ -212,7 +212,7 @@ do {
 
 Loop statment until condition is boolean true.
 
-´for (start, condition, step)´
+`for (start, condition, step)`
 
 ##### Syntax
 
