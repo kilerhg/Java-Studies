@@ -61,9 +61,30 @@ public static void main(String[] args){
 
 #### Non Primitive Types
 
-String
-List
-Date
+can be started with null, They are objects.
+
+Default values of reference.
+
+* byte, short, int, long, float and double - 0
+* char - ' '
+* boolean - false
+* String null
+
+##### String
+##### List
+##### Date
+
+##### Arrays
+
+Has an specific number of items that are set at the start.
+
+`array.lenght` - Size of the array
+
+###### Syntax
+
+`type[] variable = new type[slots];`
+
+`int[] age = new int[3];`
 
 #### Defining Variables
 

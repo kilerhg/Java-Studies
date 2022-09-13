@@ -43,7 +43,6 @@ public class Aula27a31EstruturasDeRepeticao {
 
         System.out.println("Quantidade de parcelas necessarias: " + qtdParcelasFor);
 
-
         double valorCarro = 50000;
         double valorParcelado = 0;
         float valorParcela = 1000;
