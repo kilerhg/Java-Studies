@@ -261,7 +261,7 @@ for (int num:numbers3){
 + `psvm` - create main class
 + `sout` - generate:  `System.out.println()`
 
-## Free Courses
+## Free Coursee
 
 ### EN-US
 
