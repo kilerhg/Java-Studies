@@ -85,6 +85,8 @@ Has an specific number of items that are set at the start.
 `type[] variable = new type[slots];`
 
 `int[] age = new int[3];`
+`int[] age = {1,2,3,4,5};`
+`int[] age = new int[]{1,2,3,4,5};`
 
 #### Defining Variables
 
@@ -243,6 +245,17 @@ for (int i=0; i<10; i++){
 }
 ```
 
+#### for each
+
+Similar to default for statment, but he uses a iterable directly
+
+##### Syntax
+
+```
+for (int num:numbers3){
+    System.out.println(num);
+}
+```
 ### Userfull hotkeys in intelij
 
 + `psvm` - create main class
